@@ -21,7 +21,7 @@
 :root { 
   --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
   --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
+  --heading-color: #D1D0CB; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #5ecd74; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #29261f; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #0c0b09; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
@@ -29,11 +29,11 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-color: #D1D0CB;  /* The default color of the main navmenu links */
   --nav-hover-color: #5ecd74; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #29261f; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #29261f; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #ffffff; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-color: #D1D0CB; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #5ecd74; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
@@ -46,10 +46,10 @@
 
 .dark-background {
   --background-color: #000000;
-  --default-color: #ffffff;
+  --default-color: #D1D0CB;
   --heading-color: #ffffff;
   --surface-color: #1a1a1a;
-  --contrast-color: #ffffff;
+  --contrast-color: #D1D0CB;
 }
 
 /* Smooth scroll */
@@ -972,7 +972,7 @@ section,
     width: 100%; /* Make the video take full width */
   }
 
-  .hero h2 {
+  .hero h1 {
     font-size: 32px;
   }
 
@@ -999,13 +999,13 @@ section,
 
 
 
-.hero h2 {
+.hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
 }
 
-.hero h2 span {
+.hero h1 span {
   color: var(--accent-color);
 }
 
@@ -1057,7 +1057,7 @@ section,
 # About Section
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("../img/team.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
