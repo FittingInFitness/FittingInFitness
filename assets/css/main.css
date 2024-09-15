@@ -1,11 +1,3 @@
-/**
-* Template Name: Restaurantly
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # Font & Color Variables
 # Help: https://bootstrapmade.com/color-system/
@@ -1961,25 +1953,9 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+.portfolio-details .portfolio-details-slider video {
   margin-top: 20px;
   width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  opacity: 1;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
 }
 
 .portfolio-details .portfolio-info {
